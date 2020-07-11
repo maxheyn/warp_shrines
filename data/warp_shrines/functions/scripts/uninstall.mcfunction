@@ -1,4 +1,12 @@
+# --------------------------------------------------------------- #
+#                     WARP SHRINES DATAPACK                       #
+# --------------------------------------------------------------- #
+#                                                                 #
+#              Author: https://github.com/maxheyn                 #
+#                                                                 #
+# --------------------------------------------------------------- #
 
+# Removes all scoreboard objectives and disables the datapack
 scoreboard objectives remove ws_initialized
 scoreboard objectives remove ws_help
 
