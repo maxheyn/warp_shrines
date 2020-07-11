@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "ENE",
+        "#E#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "E": {
+            "item": "minecraft:ender_pearl"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}
