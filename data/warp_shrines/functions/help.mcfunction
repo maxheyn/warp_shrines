@@ -17,3 +17,4 @@ tellraw @s ["",{"text":"6. ","color":"green"},{"text":"Make another shrine and t
 
 # Disable help after running once so it doesn't run every tick
 scoreboard players set @s ws_help 0
+scoreboard players enable @s ws_help
