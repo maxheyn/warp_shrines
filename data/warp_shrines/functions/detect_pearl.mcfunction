@@ -12,9 +12,9 @@ kill @s
 
 # Fun effects
 execute at @e[tag=ws_shrine,limit=1,sort=nearest] run summon lightning_bolt
-execute at @e[tag=ws_shrine,limit=1,sort=nearest] run summon phantom ~ ~30 ~ {Tags:["ws_warpMob"],CustomName:"\"Warp Stalker\"",ActiveEffects:[{Id:12,Amplifier:0,Duration:999999,ShowParticles:0b}],Passengers:[{Tags:["ws_warpMob"],id:"vex",CustomName:"Warp-Twisted Keeper"}]}
-execute at @e[tag=ws_shrine,limit=1,sort=nearest] run summon phantom ~ ~30 ~ {Tags:["ws_warpMob"],CustomName:"\"Warp Stalker\"",ActiveEffects:[{Id:12,Amplifier:0,Duration:999999,ShowParticles:0b}],Passengers:[{Tags:["ws_warpMob"],id:"vex",CustomName:"Warp-Twisted Keeper"}]}
-execute at @e[tag=ws_shrine,limit=1,sort=nearest] run summon phantom ~ ~30 ~ {Tags:["ws_warpMob"],CustomName:"\"Warp Stalker\"",ActiveEffects:[{Id:12,Amplifier:0,Duration:999999,ShowParticles:0b}],Passengers:[{Tags:["ws_warpMob"],id:"vex",CustomName:"Warp-Twisted Keeper"}]}
+execute at @e[tag=ws_shrine,limit=1,sort=nearest] run summon phantom ~ ~30 ~ {Tags:["ws_warpMob"],CustomName:"\"Warp Stalker\"",ActiveEffects:[{Id:12,Amplifier:0,Duration:999999,ShowParticles:0b}],Passengers:[{Tags:["ws_warpMob"],id:"vex",CustomName:"\"Warp-Twisted Keeper\""}]}
+execute at @e[tag=ws_shrine,limit=1,sort=nearest] run summon phantom ~ ~30 ~ {Tags:["ws_warpMob"],CustomName:"\"Warp Stalker\"",ActiveEffects:[{Id:12,Amplifier:0,Duration:999999,ShowParticles:0b}],Passengers:[{Tags:["ws_warpMob"],id:"vex",CustomName:"\"Warp-Twisted Keeper\""}]}
+execute at @e[tag=ws_shrine,limit=1,sort=nearest] run summon phantom ~ ~30 ~ {Tags:["ws_warpMob"],CustomName:"\"Warp Stalker\"",ActiveEffects:[{Id:12,Amplifier:0,Duration:999999,ShowParticles:0b}],Passengers:[{Tags:["ws_warpMob"],id:"vex",CustomName:"\"Warp-Twisted Keeper\""}]}
 execute at @e[tag=ws_shrine,limit=1,sort=nearest] run summon phantom ~ ~30 ~ {Tags:["ws_warpMob"],CustomName:"\"Alpha Warp Stalker\"",ActiveEffects:[{Id:11,Amplifier:2,Duration:999999,ShowParticles:0b},{Id:12,Amplifier:0,Duration:999999,ShowParticles:0b}],Size:15}
 execute at @e[tag=ws_shrine,limit=1,sort=nearest] run particle minecraft:cloud ~ ~ ~ 0 0 0 0.5 250
 
