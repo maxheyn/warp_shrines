@@ -5,11 +5,11 @@
 #              Author: https://github.com/maxheyn                 #
 #                                                                 #
 # --------------------------------------------------------------- #
+say pogu
+execute unless score @s ws_linkID matches 1.. run function warp_shrines:scripts/update_score
 
-# Initialization Message
-tellraw @a ["",{"text":"Warp Shrines Datapack Initialized","underlined":true,"color":"green"}]
+scoreboard players operation @e[sort=nearest,type=armor_stand,limit=1,tag=ws_shrine] ws_linkID = @s ws_linkID
+tag @e[sort=nearest,type=armor_stand,limit=1,tag=ws_shrine,tag=ws_unlinked] remove ws_unlinked
 
-# Set initalization boolean to true so we don't loop intialization
-# Key: $ws_init is a fake player where we store it (memory), ws_initalized is our variable storing 1 for true
-scoreboard players set $ws_init ws_initialized 1
-scoreboard objectives add ws_help trigger "show Warp Shrine help"
+execute as @e[tag=ws_shrine] unless entity @s[distance=..2] if score @e[sort=nearest,limit=1] ws_linkID = @s ws_linkID run scoreboard players reset @p ws_linkID
+
