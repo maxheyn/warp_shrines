@@ -16,5 +16,5 @@ effect give @p minecraft:slowness 1 255 true
 # Teleport the player!
 tp @p @s
 
-# Particles
-execute at @p run particle minecraft:totem_of_undying ~ ~ ~ .1 .1 .1 1 1
+# Particles!
+execute at @p run particle minecraft:totem_of_undying ~ ~ ~ .1 .1 .1 1 1 

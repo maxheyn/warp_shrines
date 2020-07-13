@@ -3,14 +3,18 @@
 # --------------------------------------------------------------- #
 #                                                                 #
 #              Author: https://github.com/maxheyn                 #
-#             Special thanks to Vanilla Tweaks for                #
-#            their datapacks through which I learned              #
-#             how to write this, and Code Zealot for              #
-#                  the initial datapack setup.                    #
+#   Special thanks to Vanilla Tweaks for their datapacks through  #
+#   which I learned how to write this, and Code Zealot for the    #
+#   initial datapack setup. Also another special thanks to        #
+#   CMD-Golem for their Gateway datapack, which helped me learn   #
+#   how to set links for the shrines. Much of my code here is     #
+#   based off of their linking system they use for their          #
+#   datapack, check theirs out below, you might like it more!     #
 #                                                                 #
 #                             URLS:                               #
 #          Vanilla Tweaks - https://vanillatweaks.net/            #
 #             Code Zealot - http://codezealot.com/                #
+#        Gateway Datapack - https://cmd-golem.jimdofree.com/      #
 #                                                                 #
 # --------------------------------------------------------------- #
 
@@ -34,5 +38,5 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:ender_pearl",Count:1b}}] at @s 
 execute at @e[tag=ws_shrine,tag=!ws_unlinked] if entity @p[tag=!ws_teleporting,distance=..1] as @e[tag=ws_shrine,tag=!ws_unlinked] unless entity @s[distance=..2] if score @e[sort=nearest,limit=1] ws_linkID = @s ws_linkID at @p[tag=!ws_teleporting,distance=..1] run function warp_shrines:warp
 execute as @e[tag=ws_teleporting] at @s unless entity @e[tag=ws_shrine,distance=..1.2] run tag @s remove ws_teleporting
 
-# Fun
+# Fun particles!
 execute as @e[tag=ws_shrine] at @s run particle minecraft:portal ~ ~ ~ .1 .1 .1 1 1
