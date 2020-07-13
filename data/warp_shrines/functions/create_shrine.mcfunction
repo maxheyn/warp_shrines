@@ -15,7 +15,7 @@ tellraw @a[distance=..5] {"text":"The Warp Stone reacts with the Beacon...","bol
 playsound minecraft:block.portal.trigger master @a[distance=..5] ~ ~ ~ 1.0 0.75 1.0
 
 # Summon player detector
-execute align xyz positioned ~0.5 ~ ~0.5 run summon armor_stand ~ ~ ~ {Tags:["ws_shrine","ws_unlinked"],Invisible:true,CustomNameVisible:true,CustomName:'"Warp Shrine"'} 
+execute align xyz positioned ~0.5 ~ ~0.5 run summon armor_stand ~ ~ ~ {Tags:["ws_shrine","ws_unlinked"],Invisible:true,CustomNameVisible:true,CustomName:'"Warp Shrine"',NoGravity:true} 
 
 # Update scoreboard variables
 scoreboard players add $ws_shrineCount ws_shrineCount 1
