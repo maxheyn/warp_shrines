@@ -21,8 +21,9 @@ scoreboard players enable @a ws_help
 scoreboard players enable @a ws_linkID
 scoreboard players set $ws_shrineCount ws_shrineCount 0
 
-
-
 # Initialization Message
 tellraw @a ["",{"text":"Warp Shrines Datapack Initialized","underlined":true,"color":"green"}]
+
+# Other fun things
+title @a times 20 20 20
 

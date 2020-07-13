@@ -10,11 +10,12 @@
 tag @p add ws_teleporting
 
 # Fun effects to make it more immersive
-playsound minecraft:entity.enderman.teleport master @p ~ ~ ~ 5 1
+playsound minecraft:entity.enderman.teleport master @p ~ ~ ~ 15 1
 effect give @p minecraft:slowness 1 255 true
+
+# Fun!
+title @a title {"text":"Woosh!","color":"#632DD7"}
 
 # Teleport the player!
 tp @p @s
 
-# Particles!
-execute at @p run particle minecraft:totem_of_undying ~ ~ ~ .1 .1 .1 1 1 
