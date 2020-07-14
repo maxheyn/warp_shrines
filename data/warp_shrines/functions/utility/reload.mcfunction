@@ -7,4 +7,4 @@
 # --------------------------------------------------------------- #
 
 # Reload message
-tellraw @p ["",{"text":"Warp Shrines Datapack has been Reloaded","underlined":true,"color":"gold"}]
+tellraw @p ["",{"text":"[Datapack] Warp Shrines Datapack has been Reloaded","color":"green"}]

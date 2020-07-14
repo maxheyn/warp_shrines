@@ -10,12 +10,10 @@
 tag @p add ws_teleporting
 
 # Fun effects to make it more immersive
-playsound minecraft:entity.enderman.teleport master @p ~ ~ ~ 15 1
-effect give @p minecraft:slowness 1 255 true
-
-# Fun!
-title @a title {"text":"Woosh!","color":"#632DD7"}
+playsound minecraft:entity.enderman.teleport master @e[type=player,distance=..10] ~ ~ ~ 15 1
+execute unless score @a[tag=ws_teleporting,sort=nearest,limit=1] ws_woosh matches ..0 run title @a[tag=ws_teleporting] title {"text":"Woosh!","color":"#632DD7"}
 
 # Teleport the player!
 tp @p @s
+
 
