@@ -27,6 +27,9 @@ scoreboard players set $ws_shrineCount ws_shrineCount 0
 # Initialization Message
 tellraw @a ["",{"text":"[Datapack] Warp Shrines Datapack Initialized","color":"green"}]
 
+# So shrines don't break when lightning
+gamerule doFireTick false
+
 # Other fun things
 title @a times 20 20 20
 
