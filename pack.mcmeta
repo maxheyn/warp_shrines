@@ -1,6 +1,6 @@
 {
 "pack":{
-    "pack_format": 5,
+    "pack_format": 6,
     "description": "Create shrine-based teleportation networks!"
 }
 }
