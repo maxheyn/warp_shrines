@@ -19,7 +19,6 @@ execute at @p run data merge entity @e[type=minecraft:armor_stand,limit=1,sort=n
 # Cool visual and audio effects when thrown
 playsound minecraft:block.portal.trigger master @a[distance=..5] ~ ~ ~ 1.0 0.75 1.0
 execute at @e[tag=ws_shrine,limit=1,sort=nearest] run particle minecraft:cloud ~ ~ ~ 0 0 0 0.5 250
-execute at @e[tag=ws_shrine,limit=1,sort=nearest] run summon lightning_bolt
 execute at @e[tag=ws_shrine,limit=1,sort=nearest] run summon phantom ~ ~30 ~ {Tags:["ws_warpMob"],CustomName:"\"Warp Stalker\"",ActiveEffects:[{Id:12,Amplifier:0,Duration:999999,ShowParticles:0b}],Passengers:[{Tags:["ws_warpMob"],id:"vex",CustomName:"\"Warp-Twisted Keeper\""}]}
 execute at @e[tag=ws_shrine,limit=1,sort=nearest] run summon phantom ~ ~30 ~ {Tags:["ws_warpMob"],CustomName:"\"Warp Stalker\"",ActiveEffects:[{Id:12,Amplifier:0,Duration:999999,ShowParticles:0b}],Passengers:[{Tags:["ws_warpMob"],id:"vex",CustomName:"\"Warp-Twisted Keeper\""}]}
 execute at @e[tag=ws_shrine,limit=1,sort=nearest] run summon phantom ~ ~30 ~ {Tags:["ws_warpMob"],CustomName:"\"Warp Stalker\"",ActiveEffects:[{Id:12,Amplifier:0,Duration:999999,ShowParticles:0b}],Passengers:[{Tags:["ws_warpMob"],id:"vex",CustomName:"\"Warp-Twisted Keeper\""}]}
