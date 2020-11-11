@@ -12,6 +12,7 @@ execute as @e[tag=ws_shrine] unless entity @s[distance=..2] if score @e[sort=nea
 
 # Fun particles and sound
 execute at @s run particle minecraft:portal ~ ~ ~ 0 0 0 0.5 1000
+execute at @s run summon lightning_bolt
 execute at @a[distance=..10] run playsound minecraft:block.beacon.deactivate master @a ~ ~ ~ 15 1
 execute at @s run summon vex ~ ~1 ~ {CustomName:"\"Warp-Twisted Keeper\""}
 execute at @s run summon vex ~ ~1 ~ {CustomName:"\"Warp-Twisted Keeper\""}
