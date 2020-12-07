@@ -9,6 +9,7 @@
 # Removes all scoreboard objectives and disables the datapack
 scoreboard objectives remove ws_initialized
 scoreboard objectives remove ws_help
+scoreboard objectives remove ws_mobs
 scoreboard objectives remove ws_linkID 
 scoreboard objectives remove ws_woosh
 scoreboard objectives remove ws_shrineCount 

@@ -9,6 +9,10 @@
 # Set initalization boolean to true so we don't loop intialization
 scoreboard players set $ws_init ws_initialized 1
 
+# Global variable storing to spawn mobs or not
+scoreboard objectives add ws_mobs dummy
+scoreboard players set $ws_mobs ws_mobs 1
+
 # Add triggers
 scoreboard objectives add ws_help trigger
 scoreboard objectives add ws_woosh trigger
