@@ -46,7 +46,7 @@ Datapack for Minecraft 1.16.2+! Adds craftable, buildable Warp Shrines to the ga
 
 <i>In a Smithing Table!</i>
 - 1x Ender Pearl
-- 1x Dragon's Breath
+- 1x Dragon's Breath 
 
 [release]:https://github.com/maxheyn/warp_shrines/releases/latest "Latest Release (external link)"
 [issues]:https://github.com/maxheyn/warp_shrines/issues "Issues (external link)"
