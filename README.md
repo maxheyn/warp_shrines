@@ -35,14 +35,14 @@ Datapack for Minecraft 1.16.2+! Adds craftable, buildable Warp Shrines to the ga
 <p align="center">Light the block underneath the Warp Shrine on fire to delete it!</p>
 
 <h3> Crafting Recipe - Warp Stone</h3>
-<img src=".github\resources\warpCrafting.png">
+<img src=".github\resources\warpstoneCrafting.png">
 
 - 4x Diamond
 - 4x Ender Pearl
 - 1x Nether Star
 
 <h3> Crafting Recipe - Link Pearl</h3>
-<img src=".github\resources\pearlCrafting.png">
+<img src=".github\resources\linkpearlCrafting.png">
 
 <i>In a Smithing Table!</i>
 - 1x Ender Pearl
