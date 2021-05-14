@@ -30,7 +30,7 @@
                     "name": "minecraft:ender_pearl",
                     "functions": [{
                         "function": "set_nbt",
-                        "tag": "{display:{Name:'[{\"text\":\"Link Pearl\",\"italic\":true,\"color\":\"dark_aqua\"}]',Lore:['[{\"text\":\"The dragon\\'s breath has seems to\",\"italic\":true,\"color\":\"#632DD7\"}]','[{\"text\":\"have enchanted the bauble.\",\"italic\":true,\"color\":\"#632DD7\"}]']},Enchantments:[{id:infinity,lvl:1}],HideFlags:1}"
+                        "tag": "{tag:\"ws_pearl\",display:{Name:'[{\"text\":\"Link Pearl\",\"italic\":true,\"color\":\"dark_aqua\"}]',Lore:['[{\"text\":\"The dragon\\'s breath has seems to\",\"italic\":true,\"color\":\"#632DD7\"}]','[{\"text\":\"have enchanted the bauble.\",\"italic\":true,\"color\":\"#632DD7\"}]']},Enchantments:[{id:infinity,lvl:1}],HideFlags:1}"
                     }]
                 },
                 {
