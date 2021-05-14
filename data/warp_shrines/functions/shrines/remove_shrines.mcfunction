@@ -27,4 +27,4 @@ kill @s
 # Give you back a Warp Stone
 tellraw @s ["",{"text":"The shrine crumbles to dust...","bold":false,"italic":true,"color":"#632DD7"}]
 tellraw @s ["",{"text":"You find a single Warp Stone among the ruins. You wonder what happened to the other linked shrine.","bold":false,"italic":true,"color":"#632DD7"}]
-give @p nether_star{display:{Name:'[{"text":"Warp Stone","italic":true,"color":"dark_aqua"}]',Lore:['[{"text":"It\'s pulsating in your hand...","italic":true,"color":"#632DD7"}]','[{"text":"It seems unstable.","italic":true,"color":"#632DD7"}]']},HideFlags:1} 1
+give @p nether_star{tag:\"ws_stone\",display:{Name:'[{"text":"Warp Stone","italic":true,"color":"dark_aqua"}]',Lore:['[{"text":"It\'s pulsating in your hand...","italic":true,"color":"#632DD7"}]','[{"text":"It seems unstable.","italic":true,"color":"#632DD7"}]']},HideFlags:1} 1
