@@ -12,7 +12,7 @@ kill @s
 tellraw @a[distance=..5] {"text":"The Warp Stone reacts with the beacon...","bold":false,"italic":true,"color":"#632DD7"}
 
 # Summon shrine, make it face the player, and even out the eyes
-execute align xyz positioned ~0.5 ~ ~0.5 run summon armor_stand ~ ~ ~ {Tags:["ws_shrine","ws_unlinked"],Invisible:true,CustomNameVisible:true,CustomName:'"Warp Shrine"',NoGravity:true}
+execute align xyz positioned ~0.5 ~ ~0.5 run summon armor_stand ~ ~ ~ {Tags:["ws_shrine","ws_unlinked","global.ignore","global.ignore.kill","global.ignore.pos"],Invisible:true,CustomNameVisible:true,CustomName:'"Warp Shrine"',NoGravity:true}
 execute as @e[tag=ws_shrine,tag=ws_unlinked,limit=1,sort=nearest] at @s run tp @s ~ ~ ~ facing entity @p feet
 execute at @p run data merge entity @e[type=minecraft:armor_stand,limit=1,sort=nearest] {Pose:{Head:[0f,0f,0f]}}
 
