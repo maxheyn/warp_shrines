@@ -1,0 +1,75 @@
+{
+	"display": {
+		"title": "Warp Shrines                          ",
+		"description": [
+			{
+				"text": "Adds craftable ",
+				"color": "green"
+			},
+			{
+				"text": "Warp Shrines",
+				"color": "gold"
+			},
+			{
+				"text": " to the game, allowing players to set up a vanilla, survival-friendly teleportation network.\n\n",
+				"color": "green"
+			},
+			{
+				"text": "Throw a ",
+				"color": "green"
+			},
+			{
+				"text": "Warp Stone",
+				"color": "dark_purple"
+			},
+			{
+				"text": " onto a ",
+				"color": "green"
+			},
+			{
+				"text": "Beacon, ",
+				"color": "aqua"
+			},
+			{
+				"text": "and then a ",
+				"color": "green"
+			},
+			{
+				"text": "Link Pearl",
+				"color": "dark_aqua"
+			},
+			{
+				"text": "onto the shrine. Do this twice to link the two Warp Shrines.\n\n",
+				"color": "green"
+			},
+			{
+				"text": "Use nametags to rename shrines.\n\n",
+				"color": "green"
+			},
+			{
+				"text": "Light the block under the shrine on ",
+				"color": "green"
+			},
+			{
+				"text": "fire",
+				"color": "dark_red"
+			},
+			{
+				"text": " to delete it and its linked shrine.",
+				"color": "green"
+			}
+		],
+		"icon": {
+			"item": "minecraft:ender_pearl",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "global:maxheyn",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -48,6 +48,8 @@ Datapack for Minecraft 1.16.2+! Adds craftable, buildable Warp Shrines to the ga
 - 1x Ender Pearl
 - 1x Dragon's Breath 
 
+<p>Uninstall the datapack with <code>/function warp_shrines:utility/uninstall</code>.</p>
+
 [release]:https://github.com/maxheyn/warp_shrines/releases/latest "Latest Release (external link)"
 [issues]:https://github.com/maxheyn/warp_shrines/issues "Issues (external link)"
 [planetminecraft]: https://www.planetminecraft.com/data-pack/warp-shrines-teleport-between-locations/ "Planet Minecraft Webpage (external link)"

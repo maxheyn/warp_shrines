@@ -13,10 +13,6 @@
 #                                                                 #
 # --------------------------------------------------------------- #
 
-# Initialization variables and function calls
-scoreboard objectives add ws_initialized dummy
-execute unless score $ws_init ws_initialized matches 1 run function warp_shrines:scripts/init
-
 # Player help and utility
 execute as @a if score @s ws_help matches 1.. run function warp_shrines:utility/help
 scoreboard players enable @a ws_woosh

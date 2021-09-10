@@ -6,9 +6,6 @@
 #                                                                 #
 # --------------------------------------------------------------- #
 
-# Set initalization boolean to true so we don't loop intialization
-scoreboard players set $ws_init ws_initialized 1
-
 # Global variable storing to spawn mobs or not
 scoreboard objectives add ws_mobs dummy
 scoreboard players set $ws_mobs ws_mobs 1
@@ -27,9 +24,6 @@ scoreboard players enable @a ws_help
 scoreboard players enable @a ws_woosh
 scoreboard players enable @a ws_linkID
 scoreboard players set $ws_shrineCount ws_shrineCount 0
-
-# Initialization Message
-tellraw @a ["",{"text":"[Datapack] Warp Shrines Datapack Initialized","color":"green"}]
 
 # Other fun things
 title @a times 20 20 20
