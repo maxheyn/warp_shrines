@@ -26,5 +26,5 @@ scoreboard players enable @a ws_linkID
 scoreboard players set $ws_shrineCount ws_shrineCount 0
 
 # Other fun things
-title @a times 20 20 20
+title @a times 20 20 5
 
